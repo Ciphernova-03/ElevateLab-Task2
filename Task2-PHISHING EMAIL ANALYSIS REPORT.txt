@@ -1,0 +1,51 @@
+PHISHING EMAIL ANALYSIS REPORT
+
+PHISHING EMAIL 1: NETFLIX PHISHING EMAIL
+Image File:netflix_phishing_email.png
+
+A phishing email was obtained that pretends to be from Netflix, informing the user that their account is suspended due to billing issues.
+
+The sender name appears as “Netflix,” but the underlying email address is not from the official @netflix.com domain. This indicates email spoofing. The email headers (if analyzed) would show mismatched return paths and failed authentication checks.
+
+The message contains a suspicious “UPDATE ACCOUNT” button. The link behind this button does not lead to Netflix and instead redirects to a fraudulent website designed to collect credentials. There is urgent wording such as “Your account is suspended,” which is commonly used in phishing to pressure victims.
+
+Hovering over the link would show a domain that does not match Netflix. The email also contains grammar issues like “some informations.” These characteristics confirm the email is a phishing attempt.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PHISHING EMAIL 2: AMAZON PHISHING EMAIL
+Image File: amazon_phishing_email.png
+
+A sample phishing email claiming to be from Amazon was analyzed. The sender address displayed as “amazon accounts@mazon.com.” The domain “mazon.com” is fake and closely resembles the real one to trick recipients.
+
+Email header checks would likely show the email was sent from non-Amazon servers and failed security validations. The email contains a link that visually looks like an Amazon security URL, but the actual link is a shortened bit.ly URL, which is a major red flag.
+
+The message uses fear-based wording about “digital criminal acts.” The mismatch between the displayed URL and the real URL further indicates phishing. The language inside the email is also unusual and unprofessional, which is not typical of Amazon.
+
+This email exhibits standard phishing traits aimed at redirecting users to a malicious website.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PHISHING EMAIL 3: BANK OF AMERICA PHISHING EMAIL
+Image File: bankofamerica_phishing_email.png
+
+A phishing email pretending to be from Bank of America was examined. The sender address is authenticationmail@trust.ameribank7.com, which is not related to the legitimate Bank of America domain.
+
+Email headers would reveal server origins that do not belong to the bank as well as failed authentication results. The email includes a suspicious password reset link (https://trust.ameribank7.com/reset-password), which does not belong to Bank of America.
+
+The email claims that there were suspicious login attempts and mentions multiple new transactions to create panic. It uses a generic greeting like “Dear account holder,” rather than addressing the user by name. The IP address mentioned (192.168.0.1) is a private local IP, which banks would never use in alerts. There are also grammatical errors like “devic e.”
+
+All these details confirm that the email is fraudulent and intended to steal sensitive banking information.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FINAL SUMMARY
+
+Across the three emails, several consistent phishing characteristics were observed:
+
+Fake sender addresses designed to look similar to legitimate services
+Header discrepancies and likely failed authentication
+Suspicious URLs or shortened links
+Urgent and fear-creating messages
+Hover-link mismatches
+Grammar and spelling mistakes
+Requests for personal information or password resets
+
+Overall Conclusion:
+All three emails are confirmed phishing attempts created to steal login credentials, financial information, or personal data.
